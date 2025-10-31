@@ -30,6 +30,10 @@ class SplashScreenPage extends StatelessWidget {
                 'Welcome',
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
+              Text(
+                'Hey there! Ready to explore Ilen Page?',
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.normal),
+              ),
             ],
           ),
         ),

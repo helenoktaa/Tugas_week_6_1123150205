@@ -14,7 +14,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "NIM: 1123150205, Helen Oktaviani",
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightBlueAccent),
+        useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink),
       ),
       home: const SplashScreenPage(),
     );
