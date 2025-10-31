@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_splashscreen/screen/SplashScreen3.dart';
 
-class SplashScreenPage extends StatelessWidget {
-  const SplashScreenPage({super.key});
+class SplashScreen2 extends StatelessWidget {
+  const SplashScreen2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +21,7 @@ class SplashScreenPage extends StatelessWidget {
                   shape: BoxShape.circle,
                   color: Colors.amber,
                   image: DecorationImage(
-                    image: AssetImage('assets/images/removebg.png'),
+                    image: AssetImage('assets/images/serii.png'),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -45,7 +46,7 @@ class SplashScreenPage extends StatelessWidget {
                     height: 10,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Color(0xFF84a98c),
+                      color: Color(0xFFedede9),
                     ),
                   ),
                   SizedBox(width: 10),
@@ -54,7 +55,7 @@ class SplashScreenPage extends StatelessWidget {
                     height: 10,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Color(0xFFedede9),
+                      color: Color(0xFF84a98c),
                     ),
                   ),
                   SizedBox(width: 10),
@@ -76,8 +77,14 @@ class SplashScreenPage extends StatelessWidget {
                   width: double.infinity,
                   child: ElevatedButton(
                     onPressed: () {
-                      //to do call next page
-                    }, 
+                      //route ==> MaterialPageRoute
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => SplashScreen3(),
+                        ),
+                      );
+                    },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Color(0xFF4CAF50),
                     ),

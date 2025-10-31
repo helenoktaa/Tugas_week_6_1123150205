@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SplashScreenPage extends StatelessWidget {
-  const SplashScreenPage({super.key});
+class SplashScreen3 extends StatelessWidget {
+  const SplashScreen3({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class SplashScreenPage extends StatelessWidget {
                   shape: BoxShape.circle,
                   color: Colors.amber,
                   image: DecorationImage(
-                    image: AssetImage('assets/images/removebg.png'),
+                    image: AssetImage('assets/images/Lotus.png'),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -45,25 +45,25 @@ class SplashScreenPage extends StatelessWidget {
                     height: 10,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
+                      color: Color(0xFFedede9),
+                    ),
+                  ),
+                  SizedBox(width: 10),
+                  Container(
+                    width: 10,
+                    height: 10,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Color(0xFFedede9),
+                    ),
+                  ),
+                  SizedBox(width: 10),
+                  Container(
+                    width: 10,
+                    height: 10,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
                       color: Color(0xFF84a98c),
-                    ),
-                  ),
-                  SizedBox(width: 10),
-                  Container(
-                    width: 10,
-                    height: 10,
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: Color(0xFFedede9),
-                    ),
-                  ),
-                  SizedBox(width: 10),
-                  Container(
-                    width: 10,
-                    height: 10,
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: Color(0xFFedede9),
                     ),
                   ),
                 ],
@@ -77,7 +77,7 @@ class SplashScreenPage extends StatelessWidget {
                   child: ElevatedButton(
                     onPressed: () {
                       //to do call next page
-                    }, 
+                    },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Color(0xFF4CAF50),
                     ),
