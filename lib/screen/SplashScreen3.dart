@@ -76,7 +76,7 @@ class SplashScreen3 extends StatelessWidget {
                   width: double.infinity,
                   child: ElevatedButton(
                     onPressed: () {
-                      //to do call next page
+                      
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Color(0xFF4CAF50),
