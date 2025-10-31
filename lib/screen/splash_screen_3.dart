@@ -27,7 +27,7 @@ class SplashScreenPage extends StatelessWidget {
               ),
 
               Text(
-                "Welcome",
+                "Welcome 3",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
               Text(
