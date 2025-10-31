@@ -69,18 +69,22 @@ class SplashScreenPage extends StatelessWidget {
                 ],
               ),
               SizedBox(height: 15),
-
               Container(
-                child: ElevatedButton(
-                  onPressed: () {
-                    //to do call next page
-                  },
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: Color(0xFF4CAF50),
-                  ),
-                  child: Text(
-                    "Continue",
-                    style: TextStyle(fontSize: 14, color: Colors.white),
+                margin: EdgeInsets.only(left: 40, right: 40),
+                child: SizedBox(
+                  height: 40,
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    onPressed: () {
+                      //to do call next page
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Color(0xFF4CAF50),
+                    ),
+                    child: Text(
+                      "Continue",
+                      style: TextStyle(fontSize: 14, color: Colors.white),
+                    ),
                   ),
                 ),
               ),
