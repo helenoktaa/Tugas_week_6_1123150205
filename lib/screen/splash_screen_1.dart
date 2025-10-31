@@ -35,6 +35,7 @@ class SplashScreenPage extends StatelessWidget {
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 14, fontWeight: FontWeight.normal),
               ),
+              SizedBox(height: 10),
 
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -66,6 +67,22 @@ class SplashScreenPage extends StatelessWidget {
                     ),
                   ),
                 ],
+              ),
+              SizedBox(height: 15),
+
+              Container(
+                child: ElevatedButton(
+                  onPressed: () {
+                    //to do call next page
+                  },
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Color(0xFF4CAF50),
+                  ),
+                  child: Text(
+                    "Continue",
+                    style: TextStyle(fontSize: 14, color: Colors.white),
+                  ),
+                ),
               ),
             ],
           ),
