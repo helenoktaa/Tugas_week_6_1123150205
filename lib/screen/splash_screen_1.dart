@@ -7,19 +7,22 @@ class SplashScreenPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Ilen Page"), actions: const []),
-      body: SingleChildScrollView(
-        child: Column(
-          children: [
-            SizedBox(height: 50),
-            Container(
-              width: 250,
-              height: 250,
-              decoration: BoxDecoration(
-                shape: BoxShape.circle,
-                color: Colors.amber,
+      body: Center(
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              SizedBox(height: 50),
+              Container(
+                width: 250,
+                height: 250,
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: Colors.amber,
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
