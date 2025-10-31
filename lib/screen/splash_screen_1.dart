@@ -19,6 +19,10 @@ class SplashScreenPage extends StatelessWidget {
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   color: Colors.amber,
+                  image: DecorationImage(
+                    image: AssetImage('assets/images/removebg.png'),
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
             ],
