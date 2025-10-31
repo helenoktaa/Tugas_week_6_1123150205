@@ -13,9 +13,10 @@ class SplashScreenPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               SizedBox(height: 50),
+
               Container(
-                width: 250,
-                height: 250,
+                width: 200,
+                height: 200,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   color: Colors.amber,
@@ -24,6 +25,10 @@ class SplashScreenPage extends StatelessWidget {
                     fit: BoxFit.cover,
                   ),
                 ),
+              ),
+              Text(
+                'Welcome',
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ],
           ),
