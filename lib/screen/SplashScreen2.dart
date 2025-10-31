@@ -19,7 +19,7 @@ class SplashScreen2 extends StatelessWidget {
                 height: 200,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: Colors.amber,
+                  color: Colors.pinkAccent,
                   image: DecorationImage(
                     image: AssetImage('assets/images/serii.png'),
                     fit: BoxFit.cover,
@@ -28,11 +28,11 @@ class SplashScreen2 extends StatelessWidget {
               ),
 
               Text(
-                "Welcome 2",
+                "Discover Your Space",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
               Text(
-                "Hey there! \n Ready to explore Ilen Page?",
+                "Everything you need, \n in one simple page.",
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 14, fontWeight: FontWeight.normal),
               ),

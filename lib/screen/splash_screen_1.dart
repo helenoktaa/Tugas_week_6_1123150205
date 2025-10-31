@@ -19,7 +19,7 @@ class SplashScreenPage extends StatelessWidget {
                 height: 200,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: Colors.amber,
+                  color: Colors.pinkAccent,
                   image: DecorationImage(
                     image: AssetImage('assets/images/removebg.png'),
                     fit: BoxFit.cover,
@@ -28,11 +28,11 @@ class SplashScreenPage extends StatelessWidget {
               ),
 
               Text(
-                "Welcome",
+                "Hey there!",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
               Text(
-                "Hey there! \n Ready to explore Ilen Page?",
+                "Ready to explore Ilen Page?",
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 14, fontWeight: FontWeight.normal),
               ),

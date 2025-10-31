@@ -18,7 +18,7 @@ class SplashScreen3 extends StatelessWidget {
                 height: 200,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: Colors.amber,
+                  color: Colors.pinkAccent,
                   image: DecorationImage(
                     image: AssetImage('assets/images/Lotus.png'),
                     fit: BoxFit.cover,
@@ -27,11 +27,11 @@ class SplashScreen3 extends StatelessWidget {
               ),
 
               Text(
-                "Welcome 3",
+                "Let’s Get Started",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
               Text(
-                "Hey there! \n Ready to explore Ilen Page?",
+                "Your page, your world, your story.",
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 14, fontWeight: FontWeight.normal),
               ),
