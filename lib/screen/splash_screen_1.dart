@@ -6,14 +6,13 @@ class SplashScreenPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Ilen Page"), actions: const []),
+      //appBar: AppBar(title: const Text("Ilen Page"), actions: const []),
       body: Center(
         child: SingleChildScrollView(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              SizedBox(height: 50),
-
+              SizedBox(height: 30),
               Container(
                 width: 200,
                 height: 200,
@@ -26,13 +25,47 @@ class SplashScreenPage extends StatelessWidget {
                   ),
                 ),
               ),
+
               Text(
-                'Welcome',
+                "Welcome",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
               Text(
-                'Hey there! Ready to explore Ilen Page?',
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.normal),
+                "Hey there! \n Ready to explore Ilen Page?",
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 14, fontWeight: FontWeight.normal),
+              ),
+
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    width: 10,
+                    height: 10,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Color(0xFF84a98c),
+                    ),
+                  ),
+                  SizedBox(width: 10),
+                  Container(
+                    width: 10,
+                    height: 10,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Color(0xFFedede9),
+                    ),
+                  ),
+                  SizedBox(width: 10),
+                  Container(
+                    width: 10,
+                    height: 10,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Color(0xFFedede9),
+                    ),
+                  ),
+                ],
               ),
             ],
           ),
