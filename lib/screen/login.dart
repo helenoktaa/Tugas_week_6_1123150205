@@ -8,8 +8,11 @@ class Login extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: Container(
+          width: double.infinity,
+          height: MediaQuery.of(context).size.height,
           padding: const EdgeInsets.all(20.0),
-          child: const Column(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               SizedBox(height: 10),
               Icon(Icons.lock_outline, size: 80, color: Colors.green),
