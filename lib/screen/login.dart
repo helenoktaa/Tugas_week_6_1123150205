@@ -42,6 +42,10 @@ class Login extends StatelessWidget {
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12.0),
                   ),
+                  enabledBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12),
+                    borderSide: BorderSide(color: Colors.grey[300]!),
+                  ),
                 ),
               ),
             ],
