@@ -13,12 +13,14 @@ class Login extends StatelessWidget {
           padding: const EdgeInsets.all(20.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               SizedBox(height: 10),
               Icon(Icons.lock_outline, size: 80, color: Colors.green),
               SizedBox(height: 10),
               Text(
                 "Welcome",
+                textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 22,
                   fontWeight: FontWeight.bold,
@@ -27,6 +29,7 @@ class Login extends StatelessWidget {
               ),
               Text(
                 "Silakan login untuk melanjutkan",
+                textAlign: TextAlign.center,
                 style: TextStyle(
                   fontWeight: FontWeight.normal,
                   color: Colors.green,
@@ -84,6 +87,7 @@ class Login extends StatelessWidget {
                   ),
                 ),
               ),
+
               ElevatedButton(
                 onPressed: () {},
                 style: ElevatedButton.styleFrom(
