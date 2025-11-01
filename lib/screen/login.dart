@@ -25,13 +25,17 @@ class Login extends StatelessWidget {
                   color: Colors.black,
                 ),
               ),
-              SizedBox(height: 3),
               Text(
                 "Silakan login untuk melanjutkan",
                 style: TextStyle(
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.normal,
                   color: Colors.green,
                 ),
+              ),
+              TextField(
+                keyboardType: TextInputType.emailAddress,
+                decoration: InputDecoration(labelText: 'email'),
+                
               ),
             ],
           ),
