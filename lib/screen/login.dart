@@ -58,7 +58,8 @@ class Login extends StatelessWidget {
                 decoration: InputDecoration(
                   labelText: 'Password',
                   hintText: 'Masukkan password Anda',
-                  prefixIcon: const Icon(Icons.email_outlined),
+                  prefixIcon: const Icon(Icons.lock_outline),
+                  suffixIcon: const Icon(Icons.visibility_outlined),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12.0),
                   ),
