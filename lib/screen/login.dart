@@ -53,6 +53,7 @@ class Login extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 10),
+              //label password
               TextField(
                 obscureText: true,
                 decoration: InputDecoration(
@@ -70,6 +71,16 @@ class Login extends StatelessWidget {
                   focusedBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
                     borderSide: BorderSide(color: Colors.blue[700]!, width: 2),
+                  ),
+                ),
+              ),
+              Align(
+                alignment: Alignment.centerRight,
+                child: TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    'Lupa Password?',
+                    style: TextStyle(color: Colors.blue[700], fontSize: 14),
                   ),
                 ),
               ),
