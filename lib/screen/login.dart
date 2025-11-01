@@ -36,8 +36,28 @@ class Login extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.emailAddress,
                 decoration: InputDecoration(
-                  labelText: 'email',
+                  labelText: 'Email',
                   hintText: 'Masukkan email Anda',
+                  prefixIcon: const Icon(Icons.email_outlined),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12.0),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12),
+                    borderSide: BorderSide(color: Colors.grey[300]!),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12),
+                    borderSide: BorderSide(color: Colors.blue[700]!, width: 2),
+                  ),
+                ),
+              ),
+              SizedBox(height: 10),
+              TextField(
+                obscureText: true,
+                decoration: InputDecoration(
+                  labelText: 'Password',
+                  hintText: 'Masukkan password Anda',
                   prefixIcon: const Icon(Icons.email_outlined),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12.0),
