@@ -32,10 +32,17 @@ class Login extends StatelessWidget {
                   color: Colors.green,
                 ),
               ),
+              SizedBox(height: 10),
               TextField(
                 keyboardType: TextInputType.emailAddress,
-                decoration: InputDecoration(labelText: 'email'),
-                
+                decoration: InputDecoration(
+                  labelText: 'email',
+                  hintText: 'Masukkan email Anda',
+                  prefixIcon: const Icon(Icons.email_outlined),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12.0),
+                  ),
+                ),
               ),
             ],
           ),
